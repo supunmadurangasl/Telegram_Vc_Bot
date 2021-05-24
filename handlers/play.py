@@ -43,7 +43,7 @@ import json
 import wget
 chat_id = None
 
-JOIN_ASAP = "You need to Join @GroupMusicXNews for using me :/"           
+JOIN_ASAP = "You need to Join @slbotzone for using me :/"           
 
 
 def cb_admin_check(func: Callable) -> Callable:
@@ -458,7 +458,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @MusicXHelper to your Group and try again</b>",
+                                  "\n\nOr manually add @@vcpalyassistant to your Group and try again</b>",
                               )
                               pass
     try:
@@ -555,7 +555,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via Group Music X 😜".format(
+        caption="▶️ **Playing** here the song requested by {} via @supunma  😜".format(
         message.from_user.mention()
         ),
     )
@@ -611,7 +611,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @MusicXHelper to your Group and try again</b>",
+                                  "\n\nOr manually add @vcpalyassistant to your Group and try again</b>",
                               )
                               pass
     try:
@@ -746,7 +746,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @GroupMusicX to your Group and try again</b>",
+                                  "\n\nOr manually add @vcpalyassistant to your Group and try again</b>",
                               )
                               pass
     try:
@@ -790,7 +790,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="Join Updates Channel",
-                   url='https://t.me/GroupMusicXBotNews')
+                   url='https://t.me/slbotzone')
              ],
              [       
                InlineKeyboardButton(
