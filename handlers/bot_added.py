@@ -9,7 +9,7 @@ async def welcome(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Channel📣", url="https://t.me/GroupMusicXNews")
+                        "Channel📣", url="https://t.me/slbotzone")
                 ]
             ]
         )
